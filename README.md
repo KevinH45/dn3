@@ -17,12 +17,13 @@ Associated pre-print *(article under review)* can be found at:
 *Please consider citing the above in any scholarly work that uses this library.*
 
 ## Requirements:
- * python >= 3.5
+ * python >= 3.10
  * pytorch >= 1.3
  * mne >= 0.20
  * pyyaml
- * pyyaml-include
+ * pyyaml-include==1.3
  * numpy
  * pandas
  * tqdm
+ * moabb==1.10
  
