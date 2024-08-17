@@ -9,7 +9,7 @@ import numpy as np
 from parse import search
 from fnmatch import fnmatch
 from pathlib import Path
-from collections import OrderedDict
+from collections.abc import OrderedDict
 from mne import pick_types, read_annotations, set_log_level
 
 from dn3.data.dataset import Dataset, RawTorchRecording, EpochTorchRecording, Thinker, DatasetInfo, DumpedDataset
